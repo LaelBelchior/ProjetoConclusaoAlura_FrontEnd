@@ -1,0 +1,85 @@
+header{
+
+    display: flex;
+    flex-flow: column;  
+    align-items: center;
+    
+    background-image:url("../assets/fundo_header.jpg");
+
+    padding: 1rem;
+
+}
+
+#h1-chamada{
+
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 8px var(--preto);
+    margin: 1rem;
+
+}
+
+h2{
+
+    font-size: 2rem;
+    margin: 1rem;
+
+}
+
+.cabecalho-nav{
+
+    display: flex;
+    flex-flow: row;
+    justify-content:space-around;
+
+}
+
+.cabecalho-chamada{
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+}
+
+.cabecalho-chamada-textos{
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+}
+
+.cabecalho-botao{
+
+    border: 3px solid var(--preto);
+    border-radius: 5px;
+
+    width: 7rem;
+    height: 3rem;
+
+    background-color: var(--branco);
+
+    font-weight: 600;
+
+    margin: 1rem;
+
+}
+
+.cabecalho-botao:hover{
+
+    background-color: var(--preto);
+    color: var(--branco);
+
+    transition: background-color 2s;
+
+}
+
+@media screen and (max-width: 376px) {
+    
+    .cabecalho-botoes{
+
+        display: none;
+
+    }
+
+}
