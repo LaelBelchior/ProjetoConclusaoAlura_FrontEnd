@@ -1,9 +1,17 @@
 .painel{
 
-   text-align: center;
-
     background-color: var(--preto);
     color: var(--branco);
+
+}
+
+.painel-paineis{
+
+    padding: 1rem;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 
 }
 
@@ -31,18 +39,21 @@
 
     margin: 1rem;
     padding: 1rem;
-    display: inline-block;
+    text-align: center;
 
     background-color: var(--branco);
     border-radius: 10px;
     
     color: var(--preto);
 
+    width: 25vw;
+
 }
 
 .painel-img{
 
     margin: 1rem;
+    width: 20vw;
 
 }
 
@@ -55,5 +66,25 @@
 #painel-card-fc{
 
     font-weight: 700;
+
+}
+
+@media screen and (max-width: 678px) {
+
+    .painel-paineis{
+
+        padding: 1rem;
+
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+
+    }
+
+    .painel-card{
+
+        width: 80vw;
+
+    }
 
 }
