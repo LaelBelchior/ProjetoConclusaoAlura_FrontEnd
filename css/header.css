@@ -13,7 +13,6 @@ header{
 #h1-chamada{
 
     font-size: 3.5rem;
-    text-shadow: 2px 2px 8px var(--preto);
     margin: 1rem;
 
 }
@@ -76,7 +75,7 @@ h2{
 
 @media screen and (max-width: 376px) {
     
-    .cabecalho-botoes{
+    .cabecalho-nav{
 
         display: none;
 

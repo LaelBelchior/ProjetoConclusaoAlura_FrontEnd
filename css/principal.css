@@ -1,5 +1,67 @@
-.principal{
+#principal{
 
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+}
+
+#principal-titulos{
+
+    margin: 1rem;
+    padding: 1rem;
+
+    text-align: center;
+
+}
+
+#principal-titulos h1{
+
+    margin: 1rem;
+    font-size: 2rem;
+
+}
+
+#principal-titulos h3{
+
+    font-size: 1.5rem;
+
+}
+
+#principal-texto{
+
+    margin: 1rem;
+    text-align: center;
+
+}
+
+#principal-imagens{
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+
+    margin: 1rem;
+
+}
+
+.principal-imagem{
+
+    margin: 1rem;
+
+}
+
+
+@media screen and (max-width:375px) {
     
+    #principal-imagens{
+
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+
+        margin: 1rem;
+    
+    }
 
 }
